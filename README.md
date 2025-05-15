@@ -1,6 +1,6 @@
 # Data Cleaning Master
 
-A Streamlit application that helps you clean your datasets with just a few clicks. Upload your data, and let the app handle duplicates and missing values intelligently.
+A Streamlit application that helps you clean your datasets with just a few clicks. Upload your data, and let the app handle duplicates and missing values intelligently using Python(Pandas).
 
 ## Features
 
@@ -36,11 +36,3 @@ Simply visit the https://data-cleaning-master.streamlit.app/ and upload your fil
 - Custom rules for missing value treatment
 - Data transformation options
 - API integration
-
-
-This project is [MIT](LICENSE) licensed.
-
-## 👏 Acknowledgements
-
-- Built with [Streamlit](https://streamlit.io/)
-- Data processing powered by [Pandas](https://pandas.pydata.org/)
