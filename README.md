@@ -1,22 +1,46 @@
 # Data Cleaning Master
 
-A streamlit application that helps you clean your datasets easily.
+A Streamlit application that helps you clean your datasets with just a few clicks. Upload your data, and let the app handle duplicates and missing values intelligently.
 
 ## Features
 
-- Upload CSV or Excel files
-- Detect and remove duplicate records
-- Handle missing values intelligently (mean for numeric columns, row removal for categorical)
-- Download cleaned data and duplicate records
-```
+- **Intuitive Upload**: Support for CSV and Excel files
+- **Duplicate Detection**: Automatically identifies and separates duplicate records
+- **Smart Missing Value Handling**:
+  - Numeric columns: Replaces nulls with mean values
+  - Categorical columns: Removes rows with missing values
+- **Progress Tracking**: Visual indicators of the cleaning process
+- **Instant Download**: Get your cleaned data and duplicates as CSV files
+- **Data Preview**: See your data before and after cleaning
 
-## Usage
+## 🚀 Quick Start
 
-1. Upload your CSV or Excel file using the file uploader
-2. Enter a name for your cleaned dataset
-3. Click "Clean Data" button
-4. View the results and download cleaned data
+### Online Usage
+Simply visit the https://data-cleaning-master.streamlit.app/ and upload your file!
 
-## Screenshots
+## 🔧 How It Works
 
-(Add screenshots of your application here)
+1. **Upload** your CSV or Excel file
+2. **Name** your dataset
+3. **Click** the "Clean Data" button
+4. The app will:
+   - Detect and separate duplicates
+   - Handle missing values (mean for numeric, drop for categorical)
+   - Show you the results
+5. **Download** your cleaned data
+
+## 🔜 Future Plans
+
+- Data visualization tools
+- Outlier detection and handling
+- Custom rules for missing value treatment
+- Data transformation options
+- API integration
+
+
+This project is [MIT](LICENSE) licensed.
+
+## 👏 Acknowledgements
+
+- Built with [Streamlit](https://streamlit.io/)
+- Data processing powered by [Pandas](https://pandas.pydata.org/)
